@@ -1,476 +1,498 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 /* BASE */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --main-color: #9747FF;
-    --body-color: #FFFFFF;
-    --title-color: #000000;
-    --text-color: #787878;
-    --btn-hover-color: #393838;
-    --btn-text-hover-color: #E119A9;
-    --input-color: #D7D0FA;
+  --main-color: #9747ff;
+  --body-color: #ffffff;
+  --title-color: #000000;
+  --text-color: #787878;
+  --btn-hover-color: #393838;
+  --btn-text-hover-color: #e119a9;
+  --input-color: #d7d0fa;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .title {
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 72px;
-    margin-bottom: 60px;
-    text-align: center;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 60px;
+  text-align: center;
 }
 /* BASE */
 
-
 /* Header */
 .header {
-    margin-top: 42px;
+  margin-top: 42px;
 }
 
 .navbars {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 54px;
-    text-decoration: none;
-    transition: .3s;
-    color: var(--title-color);
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 54px;
+  text-decoration: none;
+  transition: 0.3s;
+  color: var(--title-color);
 }
 
 .logo:hover {
-    transition: .3s;
-    color: var(--main-color);
+  transition: 0.3s;
+  color: var(--main-color);
 }
 
 .hamburger {
-    display: none;
+  display: none;
 }
 
 .nav-bar ul {
-    display: flex;
+  display: flex;
 }
 
 .nav-bar {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .nav-bar ul li a {
-    display: block;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration: none;
-    margin: 0 20px;
-    transition: .3s;
-    color: var(--title-color);
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  margin: 0 20px;
+  transition: 0.3s;
+  color: var(--title-color);
 }
 
 .nav-bar ul li a:hover {
-    transition: .3s;
-    color: var(--main-color);
+  transition: 0.3s;
+  color: var(--main-color);
 }
 /* Header */
 
 /* Home */
 .home-title {
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 72px;
-    margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 15px;
 }
 
 .home-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 32px;
-    color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 32px;
+  color: var(--text-color);
 }
 
 .home-subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    margin-bottom: 48px;
-    color: var(--text-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 48px;
+  color: var(--text-color);
 }
 
 .home-btn {
-    width: 176px;
-    height: 64px;
-    border: none;
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    transition: .6s;
-    color: var(--body-color);
-    background-color: var(--main-color);
+  width: 176px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  transition: 0.6s;
+  color: var(--body-color);
+  background-color: var(--main-color);
 }
 
 .home-btn:hover {
-    transition: .6s;
-    background-color: var(--btn-hover-color);
-    color: var(--btn-text-hover-color);
+  transition: 0.6s;
+  background-color: var(--btn-hover-color);
+  color: var(--btn-text-hover-color);
 }
 /* Home */
 
 /* About */
 .about-2-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .about-subtitle {
-    font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 36px;
-    margin-bottom: 20px;
-    color: var(--title-color);
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 36px;
+  margin-bottom: 20px;
+  color: var(--title-color);
 }
 
 .about-subtext {
-    text-transform: uppercase;
-    color: var(--title-color);
+  text-transform: uppercase;
+  color: var(--title-color);
 }
 
 .fact-item {
-    margin-top: 50px;
-    margin-right: 100px;
-    margin-bottom: 48px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 48px;
 }
 
 .about-btn {
-    padding: 15px 41px 19px 42px;
-    text-decoration: none;
-    border: none;
-    border-radius: 8px;
-    text-align: center;
-    cursor: pointer;
-    transition: .6s;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    background-color: var(--main-color);
-    color: var(--body-color);
+  padding: 15px 41px 19px 42px;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.6s;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: var(--main-color);
+  color: var(--body-color);
 }
 
 .about-btn:hover {
-    transition: .6s;
-    background-color: var(--btn-hover-color);
-    color: var(--btn-text-hover-color);
+  transition: 0.6s;
+  background-color: var(--btn-hover-color);
+  color: var(--btn-text-hover-color);
 }
 
 .skll-item {
-    margin-bottom: 37.51px;
+  margin-bottom: 37.51px;
 }
 
 .progress {
-    background-color: var(--main-color);
+  background-color: var(--main-color);
 }
 
 .skill-title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    color: var(--title-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--title-color);
 }
 /* About */
 
 /* Card */
 .cards {
-    padding-top: 135px;
+  padding-top: 135px;
 }
 
 .card-item {
-    width: 362px;
-    height: 253px;
-    margin-left: 25px;
-    padding-top: 40px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    background-color: var(--body-color);
+  width: 362px;
+  height: 253px;
+  margin-left: 25px;
+  padding-top: 40px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--body-color);
 }
 
 .icon {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: var(--main-color);
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--main-color);
 }
 
 .cards-title {
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    margin-bottom: 10px;
-    color: var(--title-color);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 10px;
+  color: var(--title-color);
 }
 
 .cards-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--title-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--title-color);
 }
 /* Card */
 
 /* Portfolio */
 .portfolio {
-    padding-top: 135px;
+  padding-top: 135px;
 }
 
 .portfolio-img {
-    width: 100% !important; 
+  width: 100% !important;
 }
 
 .portfolio-title {
-    font-size: 20px;
-    margin-top: 8px !important;
-    margin-bottom: 8px !important;
+  font-size: 20px;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
 }
 
 .portfolio-link {
-    transition: .6s;
-    text-decoration: none;
-    color: var(--main-color);
+  transition: 0.6s;
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 .portfolio-link:hover {
-    transition: .6s;
-    color: var(--btn-text-hover-color);
+  transition: 0.6s;
+  color: var(--btn-text-hover-color);
 }
 /* Portfolio */
 
 /* Freelancer */
 .freelance {
-    margin-top: 135px;
-    height: 333px;
-    background-color: var(--main-color);
+  margin-top: 135px;
+  height: 333px;
+  background-color: var(--main-color);
 }
 
 .freelance-text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    padding-top: 69px;
-    color: var(--body-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 69px;
+  color: var(--body-color);
 }
 
 .freelance-title {
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 51px;
-    padding-bottom: 44px;
-    color: var(--body-color);
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+  padding-bottom: 44px;
+  color: var(--body-color);
 }
 
 .freelance-btn {
-    padding: 10px 32px 10px 39px;
-    border: 1px solid #FFFFFF;
-    border-radius: 8px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-decoration: none;
-    transition: .6s;
-    color: var(--body-color);
+  padding: 10px 32px 10px 39px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  transition: 0.6s;
+  color: var(--body-color);
 }
 
 .freelance-btn:hover {
-    transition: .6s;
-    border-color: var(--title-color);
-    color: var(--title-color);
+  transition: 0.6s;
+  border-color: var(--title-color);
+  color: var(--title-color);
 }
 /* Freelancer */
 
 /* Contact */
 .contact {
-    padding-top: 135px;
+  padding-top: 135px;
 }
 
 .contact-item {
-    display: flex;
-    margin-bottom: 25px;
+  display: flex;
+  margin-bottom: 25px;
 }
 
 .contact-icon {
-    font-size: 25px;
-    margin-top: 5px;
-    color: var(--main-color);
+  font-size: 25px;
+  margin-top: 5px;
+  color: var(--main-color);
 }
 
 .contact-title {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    margin-left: 15px;
-    margin-bottom: 3px;
-    color: var(--title-color);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 15px;
+  margin-bottom: 3px;
+  color: var(--title-color);
 }
 
 .contact-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    margin-left: 15px;
-    color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 15px;
+  color: var(--text-color);
 }
 
 .contact-form {
-    margin-left: -20px;
+  margin-left: -20px;
 }
 
 .contact-input {
-    width: 205px;
-    height: 46px;
-    border-radius: 5px;
-    padding-left: 10px;
-    border: none;
-    outline: none;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    margin-bottom: 20px;
-    color: var(--text-color);
-    background: var(--input-color);
+  width: 205px;
+  height: 46px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  background: var(--input-color);
 }
 
 .contact-input-2 {
-    width: 602px;
-    height: 61px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    padding-left: 10px;
-    margin-bottom: 20px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    margin-bottom: 20px;
-    color: var(--text-color);
-    background: var(--input-color);
+  width: 602px;
+  height: 61px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  background: var(--input-color);
 }
 
 .contact-input-3 {
-    width: 602px;
-    height: 173px;
-    border-radius: 5px;
-    border: none;
-    outline: none;
-    padding: 10px 10px;
-    margin-bottom: 20px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    margin-bottom: 20px;
-    color: var(--text-color);
-    background: var(--input-color);
+  width: 602px;
+  height: 173px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+  background: var(--input-color);
 }
 
 .contact-button {
-    padding: 16px;
-    border: none;
-    text-align: center;
-    border-radius: 8px;
-    font-weight: 500;
-    transition: .6s;
-    color: var(--body-color);
-    background-color: var(--main-color);
+  padding: 16px;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: 0.6s;
+  color: var(--body-color);
+  background-color: var(--main-color);
 }
 
 .contact-button:hover {
-    transition: .6s;
-    background-color: var(--btn-hover-color);
-    color: var(--btn-text-hover-color);
+  transition: 0.6s;
+  background-color: var(--btn-hover-color);
+  color: var(--btn-text-hover-color);
 }
 /* Contact */
 
 /* Footer */
 .footer {
-    height: 248px;
-    margin-top: 60px;
-    padding: 3rem 0 3.5rem;
-    background: var(--main-color);
+  height: 248px;
+  margin-top: 60px;
+  padding: 3rem 0 3.5rem;
+  background: var(--main-color);
 }
 
 .footer-block {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .footer-title {
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 51px;
-    color: var(--body-color);
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 51px;
+  color: var(--body-color);
 }
 
 .footer-text {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    color: var(--body-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--body-color);
 }
 
 .footer-links {
-    display: flex;
-    gap: 30px;
-    margin-top: 15px;
+  display: flex;
+  gap: 30px;
+  margin-top: 15px;
 }
 
 .footer-links a {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 27px;
-    text-decoration: none;
-    transition: .6s;
-    color: var(--body-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration: none;
+  transition: 0.6s;
+  color: var(--body-color);
 }
 
 .footer-links a:hover {
-    transition: .6s;
-    color: var(--title-color);
+  transition: 0.6s;
+  color: var(--title-color);
 }
 
 .footer-socials {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .footer-icon {
-    font-size: 24px;
-    margin: 0 15px;
-    transition: .6s;
-    color: var(--body-color);
+  font-size: 24px;
+  margin: 0 15px;
+  transition: 0.6s;
+  color: var(--body-color);
 }
 
 .footer-icon:hover {
-    transition: .6s;
-    color: var(--title-color);
+  transition: 0.6s;
+  color: var(--title-color);
+}
+/* Общий стиль футера */
+.footer {
+  padding: 50px 0;
+}
+
+/* Убираем отступы и маркеры у списка ссылок */
+.footer-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Стиль для каждой ссылки в списке */
+.footer-links li a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Стиль для иконок социальных сетей */
+.footer-icon {
+  font-size: 24px;
 }
 /* Footer */
